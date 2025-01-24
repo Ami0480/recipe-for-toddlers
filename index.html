@@ -8,35 +8,46 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Real Recipes for Your Toddler</h1>
-    <p>
-      Food is necessary to give us the energy to function and maintain the
-      bodily process that keeps us alive. To stay healthy, eating various foods
-      that provide essential nutrition for the body is crucial. The body needs
-      carbohydrates, proteins, fats, fiber, vitamins, and minerals to maintain
-      all the organs functioning well. Excess junk deprives us of healthy
-      nutrition, leading to obesity and deficiency diseases. The best diet
-      balances different types of food and minimises junk. What would like to
-      make for your little person?
-    </p>
+    <div class="container">
+      <h1>Real Recipes for Your Toddler</h1>
 
-    <form>
-      <input type="text" placeholder="What would you like to make?" />
-      <input type="submit" submit="submit-button" />
-    </form>
-    <div>recipes<br />recipes</div>
-    <footer>
-      This is coded by
-      <a href="https://github.com/Ami0480" target="_blank">Ami Fukuyama</a> and
-      is
-      <a href="https://github.com/Ami0480/recipe-for-toddlers" target="_blank"
-        >open-sourced on GutHub</a
-      >
-      and
-      <a href="https://real-recipes-for-toddlers.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+      <p class="p">
+        Food is necessary to give us the energy to function and maintain the
+        bodily process that keeps us alive.
+      </p>
+
+      <form class="search">
+        <input
+          type="text"
+          placeholder="What's on your mind?"
+          autofocus
+          required
+          autocomplete="off"
+          class="search-form"
+        />
+        <input type="submit" class="submit-button" />
+      </form>
+      <div class="recipe">recipes<br />recipes</div>
+
+      <p>
+        To stay healthy, eating various foods that provide essential nutrition
+        for the body is crucial. The body needs carbohydrates, proteins, fats,
+        fiber, vitamins, and minerals to maintain all the organs functioning
+        well. What would like to make for your little person?
+      </p>
+      <footer>
+        This is coded by
+        <a href="https://github.com/Ami0480" target="_blank">Ami Fukuyama</a>
+        and is
+        <a href="https://github.com/Ami0480/recipe-for-toddlers" target="_blank"
+          >open-sourced on GutHub</a
+        >
+        and
+        <a href="https://real-recipes-for-toddlers.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
   </body>
   <script src="js/index.js"></script>
 </html>
