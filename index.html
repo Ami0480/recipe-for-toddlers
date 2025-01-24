@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -12,11 +13,11 @@
       <h1>Real Recipes for Your Toddler</h1>
 
       <p class="p">
-        Food is necessary to give us the energy to function and maintain the
-        bodily process that keeps us alive.
+        Don't you know what to make for your child? I will give you one recipe
+        for you. Use spare time for something else ☺️
       </p>
 
-      <form class="search">
+      <form class="search" id="search">
         <input
           type="text"
           placeholder="What's on your mind?"
@@ -24,16 +25,19 @@
           required
           autocomplete="off"
           class="search-form"
+          id="search-form-user"
         />
         <input type="submit" class="submit-button" />
       </form>
-      <div class="recipe">recipes<br />recipes</div>
+      <div class="recipe hidden" id="recipe"></div>
 
       <p>
-        To stay healthy, eating various foods that provide essential nutrition
-        for the body is crucial. The body needs carbohydrates, proteins, fats,
-        fiber, vitamins, and minerals to maintain all the organs functioning
-        well. What would like to make for your little person?
+        Food is necessary to give us the energy to function and maintain the
+        bodily process that keeps us alive.To stay healthy, eating various foods
+        that provide essential nutrition for the body is crucial. The body needs
+        carbohydrates, proteins, fats, fiber, vitamins, and minerals to maintain
+        all the organs functioning well. What would like to make for your little
+        person?
       </p>
       <footer>
         This is coded by
